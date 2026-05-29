@@ -1,0 +1,38 @@
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Outputs gerados pelos labs (não versionar, são criados localmente)
+PROFESSOR_VIRTUAL/output/
+relatorio_northwind.xlsx
+relatorio_vendas_estado.csv
+
+# Credenciais — NUNCA commitar
+config_local.py
+secrets.py
+.env.local
